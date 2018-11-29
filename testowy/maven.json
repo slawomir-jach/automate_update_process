@@ -1,0 +1,303 @@
+[
+  {
+    "name": "workspace-v0",
+    "zipball_url": "https://api.github.com/repos/apache/maven/zipball/workspace-v0",
+    "tarball_url": "https://api.github.com/repos/apache/maven/tarball/workspace-v0",
+    "commit": {
+      "sha": "ba82384065010d0875b1393b9f33f6473fff3ca3",
+      "url": "https://api.github.com/repos/apache/maven/commits/ba82384065010d0875b1393b9f33f6473fff3ca3"
+    },
+    "node_id": "MDM6UmVmMjA2NDgzOndvcmtzcGFjZS12MA=="
+  },
+  {
+    "name": "maven-3.6.0",
+    "zipball_url": "https://api.github.com/repos/apache/maven/zipball/maven-3.6.0",
+    "tarball_url": "https://api.github.com/repos/apache/maven/tarball/maven-3.6.0",
+    "commit": {
+      "sha": "97c98ec64a1fdfee7767ce5ffb20918da4f719f3",
+      "url": "https://api.github.com/repos/apache/maven/commits/97c98ec64a1fdfee7767ce5ffb20918da4f719f3"
+    },
+    "node_id": "MDM6UmVmMjA2NDgzOm1hdmVuLTMuNi4w"
+  },
+  {
+    "name": "maven-3.5.4",
+    "zipball_url": "https://api.github.com/repos/apache/maven/zipball/maven-3.5.4",
+    "tarball_url": "https://api.github.com/repos/apache/maven/tarball/maven-3.5.4",
+    "commit": {
+      "sha": "1edded0938998edf8bf061f1ceb3cfdeccf443fe",
+      "url": "https://api.github.com/repos/apache/maven/commits/1edded0938998edf8bf061f1ceb3cfdeccf443fe"
+    },
+    "node_id": "MDM6UmVmMjA2NDgzOm1hdmVuLTMuNS40"
+  },
+  {
+    "name": "maven-3.5.3",
+    "zipball_url": "https://api.github.com/repos/apache/maven/zipball/maven-3.5.3",
+    "tarball_url": "https://api.github.com/repos/apache/maven/tarball/maven-3.5.3",
+    "commit": {
+      "sha": "3383c37e1f9e9b3bc3df5050c29c8aff9f295297",
+      "url": "https://api.github.com/repos/apache/maven/commits/3383c37e1f9e9b3bc3df5050c29c8aff9f295297"
+    },
+    "node_id": "MDM6UmVmMjA2NDgzOm1hdmVuLTMuNS4z"
+  },
+  {
+    "name": "maven-3.5.2",
+    "zipball_url": "https://api.github.com/repos/apache/maven/zipball/maven-3.5.2",
+    "tarball_url": "https://api.github.com/repos/apache/maven/tarball/maven-3.5.2",
+    "commit": {
+      "sha": "138edd61fd100ec658bfa2d307c43b76940a5d7d",
+      "url": "https://api.github.com/repos/apache/maven/commits/138edd61fd100ec658bfa2d307c43b76940a5d7d"
+    },
+    "node_id": "MDM6UmVmMjA2NDgzOm1hdmVuLTMuNS4y"
+  },
+  {
+    "name": "maven-3.5.1",
+    "zipball_url": "https://api.github.com/repos/apache/maven/zipball/maven-3.5.1",
+    "tarball_url": "https://api.github.com/repos/apache/maven/tarball/maven-3.5.1",
+    "commit": {
+      "sha": "094e4e31a5af55bb17be87675da41d9aeca062f3",
+      "url": "https://api.github.com/repos/apache/maven/commits/094e4e31a5af55bb17be87675da41d9aeca062f3"
+    },
+    "node_id": "MDM6UmVmMjA2NDgzOm1hdmVuLTMuNS4x"
+  },
+  {
+    "name": "maven-3.5.0",
+    "zipball_url": "https://api.github.com/repos/apache/maven/zipball/maven-3.5.0",
+    "tarball_url": "https://api.github.com/repos/apache/maven/tarball/maven-3.5.0",
+    "commit": {
+      "sha": "ff8f5e7444045639af65f6095c62210b5713f426",
+      "url": "https://api.github.com/repos/apache/maven/commits/ff8f5e7444045639af65f6095c62210b5713f426"
+    },
+    "node_id": "MDM6UmVmMjA2NDgzOm1hdmVuLTMuNS4w"
+  },
+  {
+    "name": "maven-3.5.0-beta-1",
+    "zipball_url": "https://api.github.com/repos/apache/maven/zipball/maven-3.5.0-beta-1",
+    "tarball_url": "https://api.github.com/repos/apache/maven/tarball/maven-3.5.0-beta-1",
+    "commit": {
+      "sha": "214540c2ae5431645bb927d6dc5498ebafc27359",
+      "url": "https://api.github.com/repos/apache/maven/commits/214540c2ae5431645bb927d6dc5498ebafc27359"
+    },
+    "node_id": "MDM6UmVmMjA2NDgzOm1hdmVuLTMuNS4wLWJldGEtMQ=="
+  },
+  {
+    "name": "maven-3.5.0-alpha-1",
+    "zipball_url": "https://api.github.com/repos/apache/maven/zipball/maven-3.5.0-alpha-1",
+    "tarball_url": "https://api.github.com/repos/apache/maven/tarball/maven-3.5.0-alpha-1",
+    "commit": {
+      "sha": "8e6bbc4d4aa7cdc837625a05358c98ca15f72698",
+      "url": "https://api.github.com/repos/apache/maven/commits/8e6bbc4d4aa7cdc837625a05358c98ca15f72698"
+    },
+    "node_id": "MDM6UmVmMjA2NDgzOm1hdmVuLTMuNS4wLWFscGhhLTE="
+  },
+  {
+    "name": "maven-3.3.9",
+    "zipball_url": "https://api.github.com/repos/apache/maven/zipball/maven-3.3.9",
+    "tarball_url": "https://api.github.com/repos/apache/maven/tarball/maven-3.3.9",
+    "commit": {
+      "sha": "bb52d8502b132ec0a5a3f4c09453c07478323dc5",
+      "url": "https://api.github.com/repos/apache/maven/commits/bb52d8502b132ec0a5a3f4c09453c07478323dc5"
+    },
+    "node_id": "MDM6UmVmMjA2NDgzOm1hdmVuLTMuMy45"
+  },
+  {
+    "name": "maven-3.3.8",
+    "zipball_url": "https://api.github.com/repos/apache/maven/zipball/maven-3.3.8",
+    "tarball_url": "https://api.github.com/repos/apache/maven/tarball/maven-3.3.8",
+    "commit": {
+      "sha": "cdd15915eb4b74ccab621e51aff9ada4f455a627",
+      "url": "https://api.github.com/repos/apache/maven/commits/cdd15915eb4b74ccab621e51aff9ada4f455a627"
+    },
+    "node_id": "MDM6UmVmMjA2NDgzOm1hdmVuLTMuMy44"
+  },
+  {
+    "name": "maven-3.3.7",
+    "zipball_url": "https://api.github.com/repos/apache/maven/zipball/maven-3.3.7",
+    "tarball_url": "https://api.github.com/repos/apache/maven/tarball/maven-3.3.7",
+    "commit": {
+      "sha": "d48a49b3539e66e073e35cc6a5137a94d16465f2",
+      "url": "https://api.github.com/repos/apache/maven/commits/d48a49b3539e66e073e35cc6a5137a94d16465f2"
+    },
+    "node_id": "MDM6UmVmMjA2NDgzOm1hdmVuLTMuMy43"
+  },
+  {
+    "name": "maven-3.3.6",
+    "zipball_url": "https://api.github.com/repos/apache/maven/zipball/maven-3.3.6",
+    "tarball_url": "https://api.github.com/repos/apache/maven/tarball/maven-3.3.6",
+    "commit": {
+      "sha": "72e1aad6861c2052a65753553d92ecc2a6849ce5",
+      "url": "https://api.github.com/repos/apache/maven/commits/72e1aad6861c2052a65753553d92ecc2a6849ce5"
+    },
+    "node_id": "MDM6UmVmMjA2NDgzOm1hdmVuLTMuMy42"
+  },
+  {
+    "name": "maven-3.3.5",
+    "zipball_url": "https://api.github.com/repos/apache/maven/zipball/maven-3.3.5",
+    "tarball_url": "https://api.github.com/repos/apache/maven/tarball/maven-3.3.5",
+    "commit": {
+      "sha": "2226900a49396ae834b749ff22c126aed89dbf5a",
+      "url": "https://api.github.com/repos/apache/maven/commits/2226900a49396ae834b749ff22c126aed89dbf5a"
+    },
+    "node_id": "MDM6UmVmMjA2NDgzOm1hdmVuLTMuMy41"
+  },
+  {
+    "name": "maven-3.3.4",
+    "zipball_url": "https://api.github.com/repos/apache/maven/zipball/maven-3.3.4",
+    "tarball_url": "https://api.github.com/repos/apache/maven/tarball/maven-3.3.4",
+    "commit": {
+      "sha": "df509db95a565e09ee25edd63b5574f58ba3b077",
+      "url": "https://api.github.com/repos/apache/maven/commits/df509db95a565e09ee25edd63b5574f58ba3b077"
+    },
+    "node_id": "MDM6UmVmMjA2NDgzOm1hdmVuLTMuMy40"
+  },
+  {
+    "name": "maven-3.3.3",
+    "zipball_url": "https://api.github.com/repos/apache/maven/zipball/maven-3.3.3",
+    "tarball_url": "https://api.github.com/repos/apache/maven/tarball/maven-3.3.3",
+    "commit": {
+      "sha": "7994120775791599e205a5524ec3e0dfe41d4a06",
+      "url": "https://api.github.com/repos/apache/maven/commits/7994120775791599e205a5524ec3e0dfe41d4a06"
+    },
+    "node_id": "MDM6UmVmMjA2NDgzOm1hdmVuLTMuMy4z"
+  },
+  {
+    "name": "maven-3.3.2",
+    "zipball_url": "https://api.github.com/repos/apache/maven/zipball/maven-3.3.2",
+    "tarball_url": "https://api.github.com/repos/apache/maven/tarball/maven-3.3.2",
+    "commit": {
+      "sha": "743903acab9308dc4956b44be17a182abd17a8c0",
+      "url": "https://api.github.com/repos/apache/maven/commits/743903acab9308dc4956b44be17a182abd17a8c0"
+    },
+    "node_id": "MDM6UmVmMjA2NDgzOm1hdmVuLTMuMy4y"
+  },
+  {
+    "name": "maven-3.3.1",
+    "zipball_url": "https://api.github.com/repos/apache/maven/zipball/maven-3.3.1",
+    "tarball_url": "https://api.github.com/repos/apache/maven/tarball/maven-3.3.1",
+    "commit": {
+      "sha": "cab6659f9874fa96462afef40fcf6bc033d58c1c",
+      "url": "https://api.github.com/repos/apache/maven/commits/cab6659f9874fa96462afef40fcf6bc033d58c1c"
+    },
+    "node_id": "MDM6UmVmMjA2NDgzOm1hdmVuLTMuMy4x"
+  },
+  {
+    "name": "maven-3.3.0",
+    "zipball_url": "https://api.github.com/repos/apache/maven/zipball/maven-3.3.0",
+    "tarball_url": "https://api.github.com/repos/apache/maven/tarball/maven-3.3.0",
+    "commit": {
+      "sha": "b37a7d17765a2bc8dfab63b4e739e7198172fe43",
+      "url": "https://api.github.com/repos/apache/maven/commits/b37a7d17765a2bc8dfab63b4e739e7198172fe43"
+    },
+    "node_id": "MDM6UmVmMjA2NDgzOm1hdmVuLTMuMy4w"
+  },
+  {
+    "name": "maven-3.2.5",
+    "zipball_url": "https://api.github.com/repos/apache/maven/zipball/maven-3.2.5",
+    "tarball_url": "https://api.github.com/repos/apache/maven/tarball/maven-3.2.5",
+    "commit": {
+      "sha": "12a6b3acb947671f09b81f49094c53f426d8cea1",
+      "url": "https://api.github.com/repos/apache/maven/commits/12a6b3acb947671f09b81f49094c53f426d8cea1"
+    },
+    "node_id": "MDM6UmVmMjA2NDgzOm1hdmVuLTMuMi41"
+  },
+  {
+    "name": "maven-3.2.4",
+    "zipball_url": "https://api.github.com/repos/apache/maven/zipball/maven-3.2.4",
+    "tarball_url": "https://api.github.com/repos/apache/maven/tarball/maven-3.2.4",
+    "commit": {
+      "sha": "ed0e6acb016d0863e6421932820cf269b618dc3f",
+      "url": "https://api.github.com/repos/apache/maven/commits/ed0e6acb016d0863e6421932820cf269b618dc3f"
+    },
+    "node_id": "MDM6UmVmMjA2NDgzOm1hdmVuLTMuMi40"
+  },
+  {
+    "name": "maven-3.2.3",
+    "zipball_url": "https://api.github.com/repos/apache/maven/zipball/maven-3.2.3",
+    "tarball_url": "https://api.github.com/repos/apache/maven/tarball/maven-3.2.3",
+    "commit": {
+      "sha": "33f8c3e1027c3ddde99d3cdebad2656a31e8fdf4",
+      "url": "https://api.github.com/repos/apache/maven/commits/33f8c3e1027c3ddde99d3cdebad2656a31e8fdf4"
+    },
+    "node_id": "MDM6UmVmMjA2NDgzOm1hdmVuLTMuMi4z"
+  },
+  {
+    "name": "maven-3.2.2",
+    "zipball_url": "https://api.github.com/repos/apache/maven/zipball/maven-3.2.2",
+    "tarball_url": "https://api.github.com/repos/apache/maven/tarball/maven-3.2.2",
+    "commit": {
+      "sha": "45f7c06d68e745d05611f7fd14efb6594181933e",
+      "url": "https://api.github.com/repos/apache/maven/commits/45f7c06d68e745d05611f7fd14efb6594181933e"
+    },
+    "node_id": "MDM6UmVmMjA2NDgzOm1hdmVuLTMuMi4y"
+  },
+  {
+    "name": "maven-3.2.1",
+    "zipball_url": "https://api.github.com/repos/apache/maven/zipball/maven-3.2.1",
+    "tarball_url": "https://api.github.com/repos/apache/maven/tarball/maven-3.2.1",
+    "commit": {
+      "sha": "ea8b2b07643dbb1b84b6d16e1f08391b666bc1e9",
+      "url": "https://api.github.com/repos/apache/maven/commits/ea8b2b07643dbb1b84b6d16e1f08391b666bc1e9"
+    },
+    "node_id": "MDM6UmVmMjA2NDgzOm1hdmVuLTMuMi4x"
+  },
+  {
+    "name": "maven-3.2.0",
+    "zipball_url": "https://api.github.com/repos/apache/maven/zipball/maven-3.2.0",
+    "tarball_url": "https://api.github.com/repos/apache/maven/tarball/maven-3.2.0",
+    "commit": {
+      "sha": "9f109b60472979a5865e9d93b72db5c0e2c37232",
+      "url": "https://api.github.com/repos/apache/maven/commits/9f109b60472979a5865e9d93b72db5c0e2c37232"
+    },
+    "node_id": "MDM6UmVmMjA2NDgzOm1hdmVuLTMuMi4w"
+  },
+  {
+    "name": "maven-3.1.1",
+    "zipball_url": "https://api.github.com/repos/apache/maven/zipball/maven-3.1.1",
+    "tarball_url": "https://api.github.com/repos/apache/maven/tarball/maven-3.1.1",
+    "commit": {
+      "sha": "0728685237757ffbf44136acec0402957f723d9a",
+      "url": "https://api.github.com/repos/apache/maven/commits/0728685237757ffbf44136acec0402957f723d9a"
+    },
+    "node_id": "MDM6UmVmMjA2NDgzOm1hdmVuLTMuMS4x"
+  },
+  {
+    "name": "maven-3.1.0",
+    "zipball_url": "https://api.github.com/repos/apache/maven/zipball/maven-3.1.0",
+    "tarball_url": "https://api.github.com/repos/apache/maven/tarball/maven-3.1.0",
+    "commit": {
+      "sha": "893ca28a1da9d5f51ac03827af98bb730128f9f2",
+      "url": "https://api.github.com/repos/apache/maven/commits/893ca28a1da9d5f51ac03827af98bb730128f9f2"
+    },
+    "node_id": "MDM6UmVmMjA2NDgzOm1hdmVuLTMuMS4w"
+  },
+  {
+    "name": "maven-3.1.0-alpha-1",
+    "zipball_url": "https://api.github.com/repos/apache/maven/zipball/maven-3.1.0-alpha-1",
+    "tarball_url": "https://api.github.com/repos/apache/maven/tarball/maven-3.1.0-alpha-1",
+    "commit": {
+      "sha": "c726cdd3a9ad5c3a419e1171f8c1925e336ead18",
+      "url": "https://api.github.com/repos/apache/maven/commits/c726cdd3a9ad5c3a419e1171f8c1925e336ead18"
+    },
+    "node_id": "MDM6UmVmMjA2NDgzOm1hdmVuLTMuMS4wLWFscGhhLTE="
+  },
+  {
+    "name": "maven-3.0.5",
+    "zipball_url": "https://api.github.com/repos/apache/maven/zipball/maven-3.0.5",
+    "tarball_url": "https://api.github.com/repos/apache/maven/tarball/maven-3.0.5",
+    "commit": {
+      "sha": "01de14724cdef164cd33c7c8c2fe155faf9602da",
+      "url": "https://api.github.com/repos/apache/maven/commits/01de14724cdef164cd33c7c8c2fe155faf9602da"
+    },
+    "node_id": "MDM6UmVmMjA2NDgzOm1hdmVuLTMuMC41"
+  },
+  {
+    "name": "maven-3.0.4",
+    "zipball_url": "https://api.github.com/repos/apache/maven/zipball/maven-3.0.4",
+    "tarball_url": "https://api.github.com/repos/apache/maven/tarball/maven-3.0.4",
+    "commit": {
+      "sha": "3ad2b6794a8293a8ca6c1590708fb5d3fc795c49",
+      "url": "https://api.github.com/repos/apache/maven/commits/3ad2b6794a8293a8ca6c1590708fb5d3fc795c49"
+    },
+    "node_id": "MDM6UmVmMjA2NDgzOm1hdmVuLTMuMC40"
+  }
+]
+

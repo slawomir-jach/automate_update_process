@@ -1,0 +1,14 @@
+{
+  "version": "5.0",
+  "buildTime": "20181126114843+0000",
+  "current": true,
+  "snapshot": false,
+  "nightly": false,
+  "releaseNightly": false,
+  "activeRc": false,
+  "rcFor": "",
+  "milestoneFor": "",
+  "broken": false,
+  "downloadUrl": "https://services.gradle.org/distributions/gradle-5.0-bin.zip",
+  "checksumUrl": "https://services.gradle.org/distributions/gradle-5.0-bin.zip.sha256"
+}
