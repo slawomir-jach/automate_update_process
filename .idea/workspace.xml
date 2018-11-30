@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd957242-6abe-4330-a497-9299a43adfcb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/info_files/current_version.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/request_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/request_info.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testowy/pandas_automate.py" beforeDir="false" afterPath="$PROJECT_DIR$/testowy/pandas_automate.py" afterDir="false" />
+    <list default="true" id="bd957242-6abe-4330-a497-9299a43adfcb" name="Default Changelist" comment="don't know what is this">
+      <change beforePath="$PROJECT_DIR$/info_files/current_version.json" beforeDir="false" afterPath="$PROJECT_DIR$/info_files/current_version.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +14,7 @@
     <session id="-1872979011">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="2" />
@@ -56,7 +53,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="311" />
-          <entry key="PLAIN_TEXT" value="19" />
+          <entry key="PLAIN_TEXT" value="45" />
           <entry key="Python" value="2490" />
         </counts>
       </usages-collector>
@@ -101,8 +98,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/info_files/current_version.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="25" column="52" lean-forward="true" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
+            <state relative-caret-position="326">
+              <caret line="24" column="52" lean-forward="true" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -180,7 +177,7 @@
             <path>
               <item name="automate_update_process" type="b2602c69:ProjectViewProjectNode" />
               <item name="automate_update_process" type="462c0819:PsiDirectoryNode" />
-              <item name="testowy" type="462c0819:PsiDirectoryNode" />
+              <item name="info_files" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -344,6 +341,14 @@
       <option name="presentableId" value="Default" />
       <updated>1542104744802</updated>
     </task>
+    <task id="LOCAL-00001" summary="don't know what is this">
+      <created>1543500996334</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1543500996341</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -358,12 +363,12 @@
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="991" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18151632" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18151632" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49945354" visible="true" weight="0.329849" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49945354" weight="0.329849" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -382,6 +387,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="don't know what is this" />
+    <option name="LAST_COMMIT_MESSAGE" value="don't know what is this" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
@@ -437,8 +446,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/info_files/current_version.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="25" column="52" lean-forward="true" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
+        <state relative-caret-position="326">
+          <caret line="24" column="52" lean-forward="true" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
         </state>
       </provider>
     </entry>
