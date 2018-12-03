@@ -1,41 +1,32 @@
 {
-  "Gradle":
-  {
-    "version" : "5.0",
-    "name" : "5.0",
-    "downloadurl" : "https://services.gradle.org/distributions/gradle-5.0-bin.zip"
-  },
-
-  "Maven":
-  {
-    "version": "maven-3.6.0",
-    "name":"3.6.0",
-    "downloadurl": "https://api.github.com/repos/apache/maven/tarball/maven-3.6.0"
+  "Aps": {
+    "Gradle": {
+      "version": "4.1",
+      "name": "4.1",
+      "downloadurl": "https://services.gradle.org/distributions/gradle-5.0-bin.zip"
     },
-
-
-  "Android SDK":
-  {
-    "version":"sdk-tools-linux-4333796.zip",
-    "name" : "26.1.1"
-  },
-
-  "Android NDK":
-  {
-    "version" : "android-ndk-r18b-linux-x86_64.zip",
-    "name" : "r18b"
-  },
-
-  "Infer":
-  {
-    "version": "v0.15.0",
-    "name": "Infer version 0.15.0",
-    "downloadurl": "https://github.com/facebook/infer/releases/download/v0.15.0/infer-linux64-v0.15.0.tar.xz"
-  },
-  "Ant" :
-  {
-    "version" : "rel/1.6.4",
-    "name" : "1.6.4",
-    "downloadurl" : "https://api.github.com/repos/apache/ant/zipball/rel/1.6.4"
+    "Maven": {
+      "version": "maven-3.6.0",
+      "name": "3.6.0",
+      "downloadurl": "https://api.github.com/repos/apache/maven/tarball/maven-3.6.0"
+    },
+    "Android SDK": {
+      "version": "sdk-tools-linux-4333796.zip",
+      "name": "26.1.1"
+    },
+    "Android NDK": {
+      "version": "android-ndk-r18b-linux-x86_64.zip",
+      "name": "r18b"
+    },
+    "Infer": {
+      "version": "v0.15.0",
+      "name": "Infer version 0.15.0",
+      "downloadurl": "https://github.com/facebook/infer/releases/download/v0.15.0/infer-linux64-v0.15.0.tar.xz"
+    },
+    "Ant": {
+      "version": "rel/1.10.5",
+      "name": "1.10.5",
+      "downloadurl": "https://api.github.com/repos/apache/ant/zipball/rel/1.10.5"
+    }
   }
 }
