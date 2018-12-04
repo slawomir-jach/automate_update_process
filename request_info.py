@@ -45,3 +45,21 @@ class Request(object):
         json_file_ndk = var1.to_json()
         data_ndk = json.loads(json_file_ndk)
         return data_ndk["Package"]["3"]
+
+    @staticmethod
+    def brew_ver():
+        response = requests.get("https://api.github.com/repos/Homebrew/brew/releases/latest")
+        todos = json.loads(response.text)
+        return todos["tag_name"]
+
+    @staticmethod
+    def fastlane_ver():
+        response = requests.get("https://api.github.com/repos/fastlane/fastlane/releases/latest")
+        todos = json.loads(response.text)
+        return todos["tag_name"]
+
+    @staticmethod
+    def carthage_ver():
+        response = requests.get("https://api.github.com/repos/fastlane/fastlane/releases/latest")
+        todos = json.loads(response.text)
+        return todos["tag_name"]

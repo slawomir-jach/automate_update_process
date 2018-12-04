@@ -1,10 +1,16 @@
 import requests
 import justext
 import re
+import argparse
+import sys
 import readline
 #mach = re.search('Released', paragraph.text)
 
 """This is script for finding new version of SDK Tools , SDK Build tools"""
+
+
+
+
 
 def sdk_tools_ver():
 
@@ -22,8 +28,7 @@ def sdk_tools_ver():
 sdk_tools_ver()
 
 
-def sdk_buid_tools_ver():
-
+def sdk_build_tools_ver():
 
     response = requests.get("https://developer.android.com/studio/releases/build-tools")
     paragraphs = justext.justext(response.content, justext.get_stoplist("English"))
@@ -36,4 +41,6 @@ def sdk_buid_tools_ver():
                 print(p)
 
 
-sdk_buid_tools_ver()
+sdk_build_tools_ver()
+
+
