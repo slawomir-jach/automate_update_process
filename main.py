@@ -1,87 +1,128 @@
 
 import json
-import requests
-import justext
-import sys
 from request_info import Request
 
 
-def campare_gradle():
+def compare_gradle():
 
     with open("info_files/current_version.json", "r") as read_file:
         data = json.load(read_file)
-        if data["Aps"]["Gradle"]["version"] == Request.gradle_ver():
+        if data["Android"]["Gradle"]["version"] == Request.gradle_ver():
             print("Gradle is in the same version as in project")
         else:
             print("New Gradle version !!!")
 
 
-campare_gradle()
+compare_gradle()
 
 
-def campare_maven():
+def compare_maven():
 
     with open("info_files/current_version.json", "r") as read_file:
         data = json.load(read_file)
-        if data["Aps"]["Maven"]["version"] == Request.maven_ver():
+        if data["Android"]["Maven"]["version"] == Request.maven_ver():
             print("Maven is in the same version as in project")
         else:
             print("New Maven version !!!")
 
 
-campare_maven()
+compare_maven()
 
 
-def campare_ndk():
+def compare_ndk():
 
     with open("info_files/current_version.json", "r") as read_file:
         data = json.load(read_file)
-        if data["Aps"]["Android NDK"]["version"] == Request.ndk_ver():
+        if data["Android"]["Android NDK"]["version"] == Request.ndk_ver():
             print("NDK is in the same version as in project")
         else:
             print("New NDK version !!!")
 
 
-campare_ndk()
+compare_ndk()
 
 
-def campare_sdk():
+def compare_sdk():
 
     with open("info_files/current_version.json", "r") as read_file:
         data = json.load(read_file)
-        if data["Aps"]["Android SDK"]["version"] == Request.sdk_ver():
+        if data["Android"]["Android SDK"]["version"] == Request.sdk_ver():
             print("SDK is in the same version as in project")
         else:
             print("New SDK version !!!")
 
 
-campare_sdk()
+compare_sdk()
 
 
-def campare_infer():
+def compare_infer():
 
     with open("info_files/current_version.json", "r") as read_file:
         data = json.load(read_file)
-        if data["Aps"]["Infer"]["version"] == Request.infer_ver():
+        if data["Android"]["Infer"]["version"] == Request.infer_ver():
             print("Infer is in the same version as in project")
         else:
             print("New Infer version !!!")
 
 
-campare_infer()
+compare_infer()
 
 
-def campare_ant():
+def compare_ant():
 
     with open("info_files/current_version.json", "r") as read_file:
         data = json.load(read_file)
-        if data["Aps"]["Ant"]["version"] == Request.ant_ver():
+        if data["Android"]["Ant"]["version"] == Request.ant_ver():
             print("Ant is in the same version as in project")
         else:
             print("New Ant version !!!")
 
 
-campare_ant()
+compare_ant()
+
+
+print("############ ios tools version checking #############")
+
+
+def compare_brew():
+
+    with open("info_files/current_version.json", "r") as read_file:
+        data = json.load(read_file)
+        if data["Ios"]["Brew"]["version"] == Request.brew_ver():
+            print("Brew is in the same version as in project")
+        else:
+            print("New Brew version !!!")
+
+
+compare_brew()
+
+
+def compare_fastline():
+
+    with open("info_files/current_version.json", "r") as read_file:
+        data = json.load(read_file)
+        if data["Ios"]["Fastlane"]["version"] == Request.fastlane_ver():
+            print("Fastlane is in the same version as in project")
+        else:
+            print("New Fastlane version !!!")
+
+
+compare_fastline()
+
+
+def compare_carthage():
+    with open("info_files/current_version.json", "r") as read_file:
+        data = json.load(read_file)
+        if data["Ios"]["Carthage"]["version"] == Request.carthage_ver():
+            print("Carthage is in the same version as in project")
+        else:
+            print("New Carthage version !!!")
+
+
+compare_carthage()
+
+
+
 
 
 
