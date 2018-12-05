@@ -1,6 +1,10 @@
 
 import json
 from request_info import Request
+from os.path import join
+import inspect
+import types
+import sys
 
 
 def compare_gradle():
@@ -13,7 +17,7 @@ def compare_gradle():
             print("New Gradle version !!!")
 
 
-compare_gradle()
+#compare_gradle()
 
 
 def compare_maven():
@@ -26,7 +30,7 @@ def compare_maven():
             print("New Maven version !!!")
 
 
-compare_maven()
+#compare_maven()
 
 
 def compare_ndk():
@@ -39,7 +43,7 @@ def compare_ndk():
             print("New NDK version !!!")
 
 
-compare_ndk()
+#compare_ndk()
 
 
 def compare_sdk():
@@ -52,7 +56,7 @@ def compare_sdk():
             print("New SDK version !!!")
 
 
-compare_sdk()
+#compare_sdk()
 
 
 def compare_infer():
@@ -65,7 +69,7 @@ def compare_infer():
             print("New Infer version !!!")
 
 
-compare_infer()
+#compare_infer()
 
 
 def compare_ant():
@@ -78,7 +82,7 @@ def compare_ant():
             print("New Ant version !!!")
 
 
-compare_ant()
+#compare_ant()
 
 
 print("############ ios tools version checking #############")
@@ -94,7 +98,7 @@ def compare_brew():
             print("New Brew version !!!")
 
 
-compare_brew()
+#compare_brew()
 
 
 def compare_fastline():
@@ -107,7 +111,7 @@ def compare_fastline():
             print("New Fastlane version !!!")
 
 
-compare_fastline()
+#compare_fastline()
 
 
 def compare_carthage():
@@ -119,7 +123,7 @@ def compare_carthage():
             print("New Carthage version !!!")
 
 
-compare_carthage()
+#compare_carthage()
 
 
 def compare_xcode():
@@ -131,7 +135,7 @@ def compare_xcode():
             print("New Xcode version !!!")
 
 
-compare_xcode()
+#compare_xcode()
 
 
 def compare_fabric():
@@ -143,7 +147,23 @@ def compare_fabric():
             print("New Fabric version !!!")
 
 
-compare_fabric()
+def is_local(objectt):
+    return isinstance(objectt, types.FunctionType) and objectt.__module__ == __name__
+
+
+function_list = [name for name, value in inspect.getmembers(sys.modules[__name__], predicate=is_local)]
+#print([name for name, value in inspect.getmembers(sys.modules[__name__], predicate=is_local)])
+
+
+def version_fun():
+    for single_func in function_list:
+        print(single_func)
+
+
+version_fun()
+
+
+
 
 
 
