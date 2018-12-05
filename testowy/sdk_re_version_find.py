@@ -43,4 +43,8 @@ def sdk_build_tools_ver():
 
 sdk_build_tools_ver()
 
+>>> l = ['element1\t0238.94', 'element2\t2.3904', 'element3\t0139847']
+>>> [i.split('\t', 1)[0] for i in l]
+['element1', 'element2', 'element3']
+
 
