@@ -122,6 +122,31 @@ def compare_carthage():
 compare_carthage()
 
 
+def compare_xcode():
+    with open("info_files/current_version.json", "r") as read_file:
+        data = json.load(read_file)
+        if data["Ios"]["Xcode"]["version"] == Request.xcode_ver():
+            print("Xcode is in the same version as in project")
+        else:
+            print("New Xcode version !!!")
+
+
+compare_xcode()
+
+
+def compare_fabric():
+    with open("info_files/current_version.json", "r") as read_file:
+        data = json.load(read_file)
+        if data["Ios"]["Fabric"]["version"] == Request.fabric_ver():
+            print("Fabric is in the same version as in project")
+        else:
+            print("New Fabric version !!!")
+
+
+compare_fabric()
+
+
+
 
 
 

@@ -1,6 +1,7 @@
 import requests
 import pandas as pd
 import json
+import justext
 
 
 class Request(object):
@@ -63,3 +64,19 @@ class Request(object):
         response = requests.get("https://api.github.com/repos/fastlane/fastlane/releases/latest")
         todos = json.loads(response.text)
         return todos["tag_name"]
+
+    @staticmethod
+    def xcode_ver():
+        response = requests.get("https://developer.apple.com/documentation/xcode_release_notes")
+        paragraphs = justext.justext(response.content, justext.get_stoplist("English"))
+        for paragraph in paragraphs:
+            if "ArticleXcode" in paragraph.text:
+                ver = paragraph.text.split()[1]
+                return ver
+            break
+
+    @staticmethod
+    def fabric_ver():
+        response = requests.get("https://api.github.com/repos/fabric/fabric/tags")
+        todos = json.loads(response.text)
+        return todos[3]["name"]
