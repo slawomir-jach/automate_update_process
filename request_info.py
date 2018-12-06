@@ -80,3 +80,27 @@ class Request(object):
         response = requests.get("https://api.github.com/repos/fabric/fabric/tags")
         todos = json.loads(response.text)
         return todos[3]["name"]
+
+    @staticmethod
+    def appledoc_ver():
+        response = requests.get("https://api.github.com/repos/tomaz/appledoc/releases/latest")
+        todos = json.loads(response.text)
+        return todos["tag_name"]
+
+    @staticmethod
+    def jazzy_ver():
+        response = requests.get("https://api.github.com/repos/realm/jazzy/releases/latest")
+        todos = json.loads(response.text)
+        return todos["tag_name"]
+
+    @staticmethod
+    def swiftlint_ver():
+        response = requests.get("https://api.github.com/repos/realm/SwiftLint/releases/latest")
+        todos = json.loads(response.text)
+        return todos["tag_name"]
+
+    @staticmethod
+    def oclint_ver():
+        response = requests.get("https://api.github.com/repos/oclint/oclint/releases/latest")
+        todos = json.loads(response.text)
+        return todos["tag_name"]
