@@ -17,7 +17,7 @@ def compare_gradle():
             print("New Gradle version !!!")
 
 
-#compare_gradle()
+compare_gradle()
 
 
 def compare_maven():
@@ -30,7 +30,7 @@ def compare_maven():
             print("New Maven version !!!")
 
 
-#compare_maven()
+compare_maven()
 
 
 def compare_ndk():
@@ -43,7 +43,7 @@ def compare_ndk():
             print("New NDK version !!!")
 
 
-#compare_ndk()
+compare_ndk()
 
 
 def compare_sdk():
@@ -56,7 +56,7 @@ def compare_sdk():
             print("New SDK version !!!")
 
 
-#compare_sdk()
+compare_sdk()
 
 
 def compare_infer():
@@ -69,7 +69,7 @@ def compare_infer():
             print("New Infer version !!!")
 
 
-#compare_infer()
+compare_infer()
 
 
 def compare_ant():
@@ -82,7 +82,7 @@ def compare_ant():
             print("New Ant version !!!")
 
 
-#compare_ant()
+compare_ant()
 
 
 print("############ ios tools version checking #############")
@@ -98,7 +98,7 @@ def compare_brew():
             print("New Brew version !!!")
 
 
-#compare_brew()
+compare_brew()
 
 
 def compare_fastline():
@@ -111,7 +111,7 @@ def compare_fastline():
             print("New Fastlane version !!!")
 
 
-#compare_fastline()
+compare_fastline()
 
 
 def compare_carthage():
@@ -123,7 +123,7 @@ def compare_carthage():
             print("New Carthage version !!!")
 
 
-#compare_carthage()
+compare_carthage()
 
 
 def compare_xcode():
@@ -135,7 +135,7 @@ def compare_xcode():
             print("New Xcode version !!!")
 
 
-#compare_xcode()
+compare_xcode()
 
 
 def compare_fabric():
@@ -147,12 +147,59 @@ def compare_fabric():
             print("New Fabric version !!!")
 
 
+def compare_appledoc():
+    with open("info_files/current_version.json", "r") as read_file:
+        data = json.load(read_file)
+        if data["Ios"]["Appledoc"]["version"] == Request.appledoc_ver():
+            print("Appledoc is in the same version as in project")
+        else:
+            print("New Appledoc version !!!")
+
+
+compare_appledoc()
+
+
+def compare_jazzy():
+    with open("info_files/current_version.json", "r") as read_file:
+        data = json.load(read_file)
+        if data["Ios"]["Appledoc"]["version"] == Request.jazzy_ver():
+            print("Jazzy is in the same version as in project")
+        else:
+            print("New Jazzy version !!!")
+
+
+compare_jazzy()
+
+
+def compare_swiftlint():
+    with open("info_files/current_version.json", "r") as read_file:
+        data = json.load(read_file)
+        if data["Ios"]["Swiftlint"]["version"] == Request.swiftlint_ver():
+            print("Swiftlint is in the same version as in project")
+        else:
+            print("New Swiftlint version !!!")
+
+
+compare_swiftlint()
+
+
+def compare_oclint():
+    with open("info_files/current_version.json", "r") as read_file:
+        data = json.load(read_file)
+        if data["Ios"]["Oclint"]["version"] == Request.oclint_ver():
+            print("Oclint is in the same version as in project")
+        else:
+            print("New Oclint version !!!")
+
+
+compare_oclint()
+
+
 def is_local(objectt):
     return isinstance(objectt, types.FunctionType) and objectt.__module__ == __name__
 
 
 function_list = [name for name, value in inspect.getmembers(sys.modules[__name__], predicate=is_local)]
-#print([name for name, value in inspect.getmembers(sys.modules[__name__], predicate=is_local)])
 
 
 def version_fun():
@@ -160,7 +207,7 @@ def version_fun():
         print(single_func)
 
 
-version_fun()
+#version_fun()
 
 
 
