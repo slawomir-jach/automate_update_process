@@ -20,9 +20,11 @@ def sdk_tools_ver():
         if 'Revision' in paragraph.text:
 
             #print(paragraph.text)
-            p = re.search(r'Revision.*2017', paragraph.text)
+            p = re.search(r'Revision.* \s', paragraph.text)
             if p:
-                print(p)
+                a = p.group()
+                print(a)
+                break
 
 
 sdk_tools_ver()
@@ -36,9 +38,11 @@ def sdk_build_tools_ver():
         if 'Revision' in paragraph.text:
 
             # print(paragraph.text)
-            p = re.search(r'Revision.*2018', paragraph.text)
+            p = re.search(r'Revision.* \s', paragraph.text)
             if p:
-                print(p)
+                a = p.group()
+                print(a)
+                break
 
 
 sdk_build_tools_ver()
