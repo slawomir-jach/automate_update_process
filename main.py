@@ -46,17 +46,28 @@ def compare_ndk():
 compare_ndk()
 
 
-def compare_sdk():
-
+def compare_sdktools():
     with open("info_files/current_version.json", "r") as read_file:
         data = json.load(read_file)
-        if data["Android"]["Android SDK"]["version"] == Request.sdk_ver():
-            print("SDK is in the same version as in project")
+        if data["Android"]["Sdktools"]["version"] == Request.sdk_tools_ver():
+            print("SDK tools is in the same version as in project")
         else:
-            print("New SDK version !!!")
+            print("New SDK Tools version !!!")
 
 
-compare_sdk()
+compare_sdktools()
+
+
+def compare_sdkbuildtools():
+    with open("info_files/current_version.json", "r") as read_file:
+        data = json.load(read_file)
+        if data["Android"]["Sdkbuildtools"]["version"] == Request.sdk_build_tools_ver():
+            print("SDK build tools is in the same version as in project")
+        else:
+            print("New SDK build Tools version !!!")
+
+
+compare_sdkbuildtools()
 
 
 def compare_infer():
@@ -194,6 +205,17 @@ def compare_oclint():
 
 compare_oclint()
 
+
+def compare_sdktools():
+    with open("info_files/current_version.json", "r") as read_file:
+        data = json.load(read_file)
+        if data["Ios"]["Android"]["version"] == Request.oclint_ver():
+            print("SDK tools is in the same version as in project")
+        else:
+            print("New SDK Tools version !!!")
+
+
+compare_oclint()
 
 def is_local(objectt):
     return isinstance(objectt, types.FunctionType) and objectt.__module__ == __name__
