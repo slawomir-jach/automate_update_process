@@ -27,7 +27,18 @@
       "version": "rel/1.10.5",
       "name": "1.10.5",
       "downloadurl": "https://api.github.com/repos/apache/ant/zipball/rel/1.10.5"
+    },
+    "Sdktools" : {
+      "version" : "26.1.1",
+      "name" : "26.1.1",
+      "downloadurl" : ""
+    },
+    "Sdkbuildtools" : {
+      "version" : "28.0.3",
+      "name" : "28.0.3",
+      "downloadurl" : ""
     }
+
   },
 
   "Ios": {
@@ -77,7 +88,11 @@
       "name" : "v0.13",
       "downloadurl" : ""
 
+    },
+    "Sdktools" : {
+      "version" : "26.1.1",
+      "name" : "26.1.1",
+      "downloadurl" : ""
     }
-
   }
 }
