@@ -83,6 +83,30 @@ def compare_infer():
 compare_infer()
 
 
+def compare_spoon():
+
+    with open("info_files/current_version.json", "r") as read_file:
+        data = json.load(read_file)
+        if data["Android"]["Spoon"]["version"] == Request.spoon_ver():
+            print("Spoon is in the same version as in project")
+        else:
+            print("New Spoon version !!!")
+
+
+compare_spoon()
+
+
+def compare_openstf():
+
+    with open("info_files/current_version.json", "r") as read_file:
+        data = json.load(read_file)
+        if data["Android"]["Openstf"]["version"] == Request.openstf_ver():
+            print("OpenSTF is in the same version ", (Request.openstf_ver()), "as in project")
+        else:
+            print("New OpenSTF version !!!")
+
+compare_openstf()
+
 def compare_ant():
 
     with open("info_files/current_version.json", "r") as read_file:

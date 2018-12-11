@@ -33,6 +33,12 @@ class Request(object):
         return todos["tag_name"]
 
     @staticmethod
+    def openstf_ver():
+        response = requests.get("https://api.github.com/repos/openstf/stf/releases/latest")
+        todos = json.loads(response.text)
+        return todos["tag_name"]
+
+    @staticmethod
     def sdk_ver():
         calls_df = pd.read_html("https://developer.android.com/studio/", header=0, parse_dates=["Platform"])
         var1 = calls_df[1]
@@ -81,6 +87,12 @@ class Request(object):
         response = requests.get("https://api.github.com/repos/fabric/fabric/tags")
         todos = json.loads(response.text)
         return todos[3]["name"]
+
+    @staticmethod
+    def spoon_ver():
+        response = requests.get("https://api.github.com/repos/square/spoon/tags")
+        todos = json.loads(response.text)
+        return todos[0]["name"]
 
     @staticmethod
     def appledoc_ver():

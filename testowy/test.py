@@ -1,14 +1,19 @@
-def is_number(n):
-    try:
-        float(n)   # Type-casting the string to `float`.
-                   # If string is not a valid `float`,
-                   # it'll raise `ValueError` exception
-    except ValueError:
-        return False
-    return True
+import requests
+import pandas as pd
+import json
+import justext
+import re
 
 
-print(is_number("1.3"))
+
+
+def spoon_ver():
+    response = requests.get("https://api.github.com/repos/square/spoon/tags")
+    todos = json.loads(response.text)
+    print(todos[0]["name"])
+    return todos[0]["name"]
+
+spoon_ver()
 
 
 
