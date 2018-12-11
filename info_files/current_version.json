@@ -37,6 +37,17 @@
       "version" : "28.0.3",
       "name" : "28.0.3",
       "downloadurl" : ""
+    },
+    "Spoon" : {
+      "version" : "parent-1.7.1",
+      "name" : "parent-1.7.1",
+      "downloadurl" : ""
+    },
+    "Openstf" : {
+      "version" : "v3.4.0",
+      "name" : "v3.4.0",
+      "downloadurl" : ""
+
     }
 
   },
