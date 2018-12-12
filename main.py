@@ -12,9 +12,9 @@ def compare_gradle():
     with open("info_files/current_version.json", "r") as read_file:
         data = json.load(read_file)
         if data["Android"]["Gradle"]["version"] == Request.gradle_ver():
-            print("Gradle is in the same version as in project")
+            print("Gradle is in the same", (Request.gradle_ver()), "version as in project")
         else:
-            print("New Gradle version !!!")
+            print("New Gradle version", (Request.gradle_ver()), "!!!")
 
 
 compare_gradle()
@@ -25,9 +25,9 @@ def compare_maven():
     with open("info_files/current_version.json", "r") as read_file:
         data = json.load(read_file)
         if data["Android"]["Maven"]["version"] == Request.maven_ver():
-            print("Maven is in the same version as in project")
+            print("Maven is in the same", (Request.maven_ver()), "version as in project")
         else:
-            print("New Maven version !!!")
+            print("New Maven version", (Request.maven_ver()), "!!!")
 
 
 compare_maven()
@@ -38,9 +38,9 @@ def compare_ndk():
     with open("info_files/current_version.json", "r") as read_file:
         data = json.load(read_file)
         if data["Android"]["Android NDK"]["version"] == Request.ndk_ver():
-            print("NDK is in the same version as in project")
+            print("NDK is in the same", (Request.ndk_ver()), "version as in project")
         else:
-            print("New NDK version !!!")
+            print("New NDK version", (Request.ndk_ver()), "!!!")
 
 
 compare_ndk()
@@ -50,9 +50,9 @@ def compare_sdktools():
     with open("info_files/current_version.json", "r") as read_file:
         data = json.load(read_file)
         if data["Android"]["Sdktools"]["version"] == Request.sdk_tools_ver():
-            print("SDK tools is in the same version as in project")
+            print("SDK tools is in the same", (Request.sdk_tools_ver()), "version as in project")
         else:
-            print("New SDK Tools version !!!")
+            print("New SDK Tools version", (Request.sdk_tools_ver()), "!!!")
 
 
 compare_sdktools()
@@ -62,9 +62,9 @@ def compare_sdkbuildtools():
     with open("info_files/current_version.json", "r") as read_file:
         data = json.load(read_file)
         if data["Android"]["Sdkbuildtools"]["version"] == Request.sdk_build_tools_ver():
-            print("SDK build tools is in the same version as in project")
+            print("SDK build tools is in the same", (Request.sdk_build_tools_ver()), "version as in project")
         else:
-            print("New SDK build Tools version !!!")
+            print("New SDK build Tools", (Request.sdk_build_tools_ver()), "version !!!")
 
 
 compare_sdkbuildtools()
@@ -75,7 +75,7 @@ def compare_infer():
     with open("info_files/current_version.json", "r") as read_file:
         data = json.load(read_file)
         if data["Android"]["Infer"]["version"] == Request.infer_ver():
-            print("Infer is in the same version as in project")
+            print("Infer is in the same", (Request.infer_ver()), "version as in project")
         else:
             print("New Infer version !!!")
 
@@ -88,9 +88,9 @@ def compare_spoon():
     with open("info_files/current_version.json", "r") as read_file:
         data = json.load(read_file)
         if data["Android"]["Spoon"]["version"] == Request.spoon_ver():
-            print("Spoon is in the same version as in project")
+            print("Spoon is in the same", (Request.spoon_ver()), "version as in project")
         else:
-            print("New Spoon version !!!")
+            print("New Spoon version", (Request.spoon_ver()), "!!!")
 
 
 compare_spoon()
@@ -105,16 +105,18 @@ def compare_openstf():
         else:
             print("New OpenSTF version !!!")
 
+
 compare_openstf()
+
 
 def compare_ant():
 
     with open("info_files/current_version.json", "r") as read_file:
         data = json.load(read_file)
         if data["Android"]["Ant"]["version"] == Request.ant_ver():
-            print("Ant is in the same version as in project")
+            print("Ant is in the same", (Request.ant_ver()),  "version as in project")
         else:
-            print("New Ant version !!!")
+            print("New Ant version", (Request.ant_ver()),  "!!!")
 
 
 compare_ant()

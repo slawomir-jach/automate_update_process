@@ -1,19 +1,14 @@
-import requests
-import pandas as pd
-import json
-import justext
-import re
+import subprocess
+
+bashCommand = " ls /usr/bin/w /bin/ps"
+
+#bashCommand = "cwm --rdf test.rdf --ntriples > test.nt"
 
 
+process = subprocess.Popen(bashCommand.split(), stdout=subprocess.PIPE)
+output, error = process.communicate()
 
-
-def spoon_ver():
-    response = requests.get("https://api.github.com/repos/square/spoon/tags")
-    todos = json.loads(response.text)
-    print(todos[0]["name"])
-    return todos[0]["name"]
-
-spoon_ver()
+print(process)
 
 
 
