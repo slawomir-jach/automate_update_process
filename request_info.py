@@ -2,6 +2,7 @@ import requests
 import pandas as pd
 import json
 import justext
+import re
 
 
 class Request(object):
@@ -28,6 +29,12 @@ class Request(object):
     @staticmethod
     def infer_ver():
         response = requests.get("https://api.github.com/repos/facebook/infer/releases/latest")
+        todos = json.loads(response.text)
+        return todos["tag_name"]
+
+    @staticmethod
+    def openstf_ver():
+        response = requests.get("https://api.github.com/repos/openstf/stf/releases/latest")
         todos = json.loads(response.text)
         return todos["tag_name"]
 
@@ -80,3 +87,59 @@ class Request(object):
         response = requests.get("https://api.github.com/repos/fabric/fabric/tags")
         todos = json.loads(response.text)
         return todos[3]["name"]
+
+    @staticmethod
+    def spoon_ver():
+        response = requests.get("https://api.github.com/repos/square/spoon/tags")
+        todos = json.loads(response.text)
+        return todos[0]["name"]
+
+    @staticmethod
+    def appledoc_ver():
+        response = requests.get("https://api.github.com/repos/tomaz/appledoc/releases/latest")
+        todos = json.loads(response.text)
+        return todos["tag_name"]
+
+    @staticmethod
+    def jazzy_ver():
+        response = requests.get("https://api.github.com/repos/realm/jazzy/releases/latest")
+        todos = json.loads(response.text)
+        return todos["tag_name"]
+
+    @staticmethod
+    def swiftlint_ver():
+        response = requests.get("https://api.github.com/repos/realm/SwiftLint/releases/latest")
+        todos = json.loads(response.text)
+        return todos["tag_name"]
+
+    @staticmethod
+    def oclint_ver():
+        response = requests.get("https://api.github.com/repos/oclint/oclint/releases/latest")
+        todos = json.loads(response.text)
+        return todos["tag_name"]
+
+    @staticmethod
+    def sdk_tools_ver():
+
+        response = requests.get("https://developer.android.com/studio/releases/sdk-tools")
+        paragraphs = justext.justext(response.content, justext.get_stoplist("English"))
+        for paragraph in paragraphs:
+            if 'Revision' in paragraph.text:
+                p = re.search('Revision.*\s', paragraph.text)
+                if p:
+                    a = p.group().split()
+                    return a[1]
+
+    @staticmethod
+    def sdk_build_tools_ver():
+
+        response = requests.get("https://developer.android.com/studio/releases/build-tools")
+        paragraphs = justext.justext(response.content, justext.get_stoplist("English"))
+        for paragraph in paragraphs:
+            if 'Revision' in paragraph.text:
+
+                # print(paragraph.text)
+                p = re.search(r'Revision.*\s', paragraph.text)
+                if p:
+                    a = p.group().split()
+                    return a[1]
