@@ -6,9 +6,11 @@ stages:
                   
 
 testing:
+    stage: testing    
     script:
     - python36 /automate/main.py
 
 change_json:     
+    stage: change_json
     script:
     - echo "this is change json file section"
