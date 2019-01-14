@@ -1,0 +1,14 @@
+image: registry-testing.kazan.atosworldline.com/sandbox/automate_update:latest  
+
+stages:  
+    - testing               
+    - change_json       
+                  
+
+testing:
+    script:
+    - python36 /automate/main.py
+
+change_json:     
+    script:
+    - echo "this is change json file section"
