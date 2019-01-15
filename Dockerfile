@@ -5,6 +5,7 @@ RUN yum repolist
 RUN yum install -y python36 python36-setuptools python-pip python36-dev python36-devel
 
 RUN  curl -s "https://get.sdkman.io" | bash
+RUN chmod a+x "$HOME/.sdkman/bin/sdkman-init.sh"
 RUN source "$HOME/.sdkman/bin/sdkman-init.sh"
 RUN mkdir -p /automate/info_files/
 COPY  info_files/current_version.json /automate/info_files/
