@@ -1,7 +1,6 @@
 FROM centos
 
 RUN yum install -y epel-release which curl bash zip unzip   gcc musl-dev g++ libxml2 
-RUN yum repolist
 RUN yum install -y python36 python36-setuptools python-pip python36-dev python36-devel
 
 RUN  curl -s "https://get.sdkman.io" | bash
