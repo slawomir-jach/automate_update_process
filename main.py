@@ -77,7 +77,7 @@ def compare_infer():
         if data["Android"]["Infer"]["version"] == Request.infer_ver():
             print("Infer is in the same", (Request.infer_ver()), "version as in project")
         else:
-            print("New Infer version !!!")
+            print("New Infer version", (Request.infer_ver()), "!!!")
 
 
 compare_infer()
