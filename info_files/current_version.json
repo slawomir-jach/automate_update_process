@@ -15,8 +15,8 @@
       "name": "26.1.1"
     },
     "Android NDK": {
-      "version": "android-ndk-r19b-linux-x86_64.zip",
-      "name": "r19b"
+      "version": "android-ndk-r19c-linux-x86_64.zip",
+      "name": "r19c"
     },
     "Infer": {
       "version": "v0.15.0",
